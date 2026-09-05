@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://rapidappworks.com/</loc></url>
-  <url><loc>https://rapidappworks.com/yt-digest/</loc></url>
-  <url><loc>https://rapidappworks.com/yt-digest/privacy-policy/</loc></url>
+  <url>
+    <loc>https://rapidappworks.com/</loc>
+    <lastmod>2026-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://rapidappworks.com/yt-digest/</loc>
+    <lastmod>2026-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://rapidappworks.com/yt-digest/privacy-policy/</loc>
+    <lastmod>2026-09-05</lastmod>
+  </url>
 </urlset>
