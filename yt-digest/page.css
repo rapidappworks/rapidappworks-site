@@ -43,3 +43,4 @@
 .story-page .ownership{font-size:18px}
 .story-page #get-started{margin-block:38px;padding:40px 20px}
 }
+.story-page img{max-width:100%}.story-page figure{max-width:100%}.story-page .story-pair{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}@media(max-width:700px){.story-page .story-pair{grid-template-columns:minmax(0,1fr)}}
