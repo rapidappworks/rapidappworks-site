@@ -3,7 +3,7 @@
 
   document.addEventListener('click', function (event) {
     if (!(event.target instanceof Element)) return;
-    const badge = event.target.closest('.store-badge');
+    const badge = event.target.closest('.store-badge, [data-google-ads-conversion]');
     if (!badge) return;
 
     let location = 'page';
@@ -11,11 +11,19 @@
     else if (badge.closest('.hero')) location = 'hero';
     else if (badge.closest('.how')) location = 'how_it_works';
     else if (badge.closest('.final-cta')) location = 'final_cta';
+    else if (badge.classList.contains('closing-store-badge')) location = 'final_cta';
 
     window.gtag('event', 'chrome_web_store_click', {
       cta_location: location,
       link_url: badge.href,
     });
+
+    const conversionDestination = badge.dataset.googleAdsConversion;
+    if (conversionDestination) {
+      window.gtag('event', 'conversion', {
+        send_to: conversionDestination,
+      });
+    }
   });
 
   if ('IntersectionObserver' in window) {

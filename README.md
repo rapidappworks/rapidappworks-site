@@ -30,5 +30,19 @@ The integration records the standard GA4 page view plus these custom events:
 Register `cta_location` and `feature_name` as event-scoped custom dimensions in
 GA4 if they are needed in reports and explorations.
 
+## Google Ads Chrome Store clicks
+
+The YT Digest landing page also configures Google Ads ID `AW-18434364625`.
+Its Chrome Store links carry `data-google-ads-conversion` with destination
+`AW-18434364625/Hl2eCPOOjJUdENGpmNZE`. The shared `analytics.js` sends this
+conversion only on a marked link click, alongside the existing GA4 click event.
+This measures visits to the Chrome Web Store, not completed installations.
+
+Publish `yt-digest/index.html` and `analytics.js` together. Verify with Google
+Tag Assistant that loading the page sends no conversion and each Chrome Store
+button click sends one conversion to the destination above. The action's
+existing name, "Purchase", can remain; its campaign goal selection and primary
+or secondary setting in Google Ads separately control reporting and bidding.
+
 Product claims are based on the Chrome Web Store listing and local extension documentation. The workflow graphic is an HTML/CSS illustration, explicitly labeled as an example. The active extension icon was copied from utubext/icon128.png. ChatGPT account requirements and subtitle availability are stated in the FAQ.
 
