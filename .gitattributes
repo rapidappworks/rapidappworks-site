@@ -1,0 +1,3 @@
+# Preserve approved logo bytes so manifest checks are stable across platforms.
+/branding-assets/** -text
+/assets/ytdigest-extension/** -text

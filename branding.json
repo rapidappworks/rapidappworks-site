@@ -1,0 +1,10 @@
+{
+  "product": "YT Digest Chrome extension",
+  "assetPack": "branding-assets/ytdigest-play-zap-grey-v2",
+  "assets": {
+    "logo": { "source": "svg/ytdigest-grey.svg", "output": "assets/ytdigest-extension/logo.svg" },
+    "rasterLogo": { "source": "png/ytdigest-128.png", "output": "assets/ytdigest-extension/logo-128.png" },
+    "favicon": { "source": "platforms/web/favicon.ico", "output": "assets/ytdigest-extension/favicon.ico" },
+    "touchIcon": { "source": "platforms/web/apple-touch-icon.png", "output": "assets/ytdigest-extension/apple-touch-icon.png" }
+  }
+}

@@ -44,5 +44,5 @@ button click sends one conversion to the destination above. The action's
 existing name, "Purchase", can remain; its campaign goal selection and primary
 or secondary setting in Google Ads separately control reporting and bidding.
 
-Product claims are based on the Chrome Web Store listing and local extension documentation. The workflow graphic is an HTML/CSS illustration, explicitly labeled as an example. The active extension icon was copied from utubext/icon128.png. ChatGPT account requirements and subtitle availability are stated in the FAQ.
+Product claims are based on the Chrome Web Store listing and local extension documentation. The workflow graphic is an HTML/CSS illustration, explicitly labeled as an example. Extension website branding is configured in `branding.json`; see `BRANDING.md` for asset synchronization and local preview. ChatGPT account requirements and subtitle availability are stated in the FAQ.
 
